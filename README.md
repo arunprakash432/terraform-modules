@@ -10,7 +10,7 @@ Creates a single AWS EC2 instance.
 
 ```hcl
 module "ec2" {
-  source = "git::https://github.com/your-org/terraform-modules.git//ec2"
+  source = "git::https://github.com/arunprakash432/terraform-modules.git//ec2"
 
   name                = "app-server"
   ami_id              = "ami-0c02fb55956c7d316"
